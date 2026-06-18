@@ -1,7 +1,3 @@
-;dedicated update server
+;dedicated upload server
 server=http://62.80.185.49:2001/
-request=getUpdateInfo
-
-;on-site updates
-;server=https://elvatech.com/service/ElvaXCeUpdates/
-;request=
+request=postDeviceFile
